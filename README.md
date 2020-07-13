@@ -1,8 +1,10 @@
+# Before you start
+Create directory `input_data` and put your `filename.csv` in it. 
+
 # clean_data_app
 ## Description
 
-The purpose of this app is to explore data and to produce a clean version of it. An open-source app framework [streamlit](https://www.streamlit.io/) is used to build this app.
-
+The purpose of this app is to explore data and to produce a clean version of it. An open-source app framework [streamlit](https://www.streamlit.io/) is used to build this app. 
 
 ## Usage
 ### 1. Clone the repository locally
@@ -57,14 +59,14 @@ streamlit run [filename]
 
 The app should automatically open in a new tab in your browser.
 
-# clean-data
+# clean_data
 
 ## Description
 
 This version of the code does not contain `streamlit` app. It can be used for data cleaning. No data exploration.
 
 ## Usage
-Repeat steps 1-3, exept for `streamlit` installation. 
+Repeat steps 1-3, except for `streamlit` installation. 
 To execute in terminal run:
 
 ```bash
