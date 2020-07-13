@@ -1,0 +1,11 @@
+name: null
+
+dependencies: 
+        - pandas
+        - numpy
+        - seaborn
+        - matplotlib
+        - python
+        - pip
+        
+
