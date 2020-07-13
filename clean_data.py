@@ -71,6 +71,7 @@ def load_data(nrows=None):
     allowed_values = list(set(di.values()))
     data.loc[~data["shifts"].isin(allowed_values), "shifts"] = "NaN"
     # data['area'] = data['area'].str.replace(r'cell2' 'cell-2')
+    #TODO check data types with isinstance
     data["prodtype"] = data["prodtype"].str.replace(r"[\s_]", "-").str.lower()
     data["prodfam"] = data["prodfam"].str.replace(r"[\s_]", "-").str.lower()
     data["reason"] = data["reason"].str.replace(" ", "")
